@@ -1,0 +1,80 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.container {
+    border: 1px solid #9f9f9f;
+    border-radius: 8px;  
+}
+
+.container-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "gegevens gegevens gegevens profielfoto" "notificatie notificatie notificatie notificatie" "approve approve decline decline";
+    row-gap: 0px;
+    padding: 25px;
+}
+
+.container p {font-size: 30px;}
+
+.gegevens {
+    grid-area: gegevens; 
+    line-height: 0.5;
+}
+
+.gegevens p {color: #9f9f9f;}
+
+.profielfoto {
+    grid-area: profielfoto; 
+    text-align: right;}
+
+.notificatie {
+    grid-area: notificatie; 
+    margin-top: 0px;}
+
+.notificatie p {margin-top: 0px;}
+
+
+button {
+    width: 100%;
+    font-size: 30px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.approve {
+    grid-area: approve;
+    color: limegreen;
+    border: 2px solid limegreen;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.decline {
+    grid-area: decline;
+    color: red;
+    border: 2px solid red;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+hr {
+    height: 0.3px; 
+    background-color: #9f9f9f; 
+    margin-top: 0px;
+}
+
+

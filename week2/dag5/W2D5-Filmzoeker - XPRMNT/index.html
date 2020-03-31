@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Filmzoeker Experiment</title>
+        <script defer type="text/javascript" src="movies.js"></script>
+        <script defer type="text/javascript" src="script.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><h1>Welkom bij Winc Filmzoeker</h1></a>
+            <br>
+            <label>
+                <input type="radio" name="film-filter" value="latest" />
+                Laatste Films, 2014 of nieuwer
+              </label>
+              <label>
+                <input type="radio" name="film-filter" value="avenger" />
+                Avenger Films
+              </label>
+              <label>
+                <input type="radio" name="film-filter" value="x-men" />
+                X-Men Films
+              </label>
+              <label>
+                <input type="radio" name="film-filter" value="princess" />
+                Princess Films
+              </label>
+              <label>
+                <input type="radio" name="film-filter" value="batman" />
+                Batman Films
+              </label>
+        </nav>
+        <main>
+            <div class="container" id="container">
+                <ul id="movie-list"></ul>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+Opdracht 1 - informatie over katten.
+
+- De response hiervan was een database van heel veel verschillende katten en hun kenmerken.
+- De statuscode was 200
+
+Opdracht 2 - Informatie over films
+
+- De response is false, er wordt een error gegeven.
+- De statuscode is 401 - unauthorized.
+
+Opdracht 3 - 
+
+- Ik zie een json-array met daarin de film Guardians Of the Galaxy en heel veel verschillende kenmerken hiervan.
+- De statuscode is 200

@@ -1,0 +1,81 @@
+
+C:\Users\Gebruiker>whoami
+desktop-9c59nv1\gebruiker
+
+C:\Users\Gebruiker>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3E33-A873
+
+ Directory of C:\Users\Gebruiker
+
+17-03-2020  12:24    <DIR>          .
+17-03-2020  12:24    <DIR>          ..
+16-03-2020  15:57    <DIR>          .cache
+17-03-2020  10:55    <DIR>          .config
+17-03-2020  14:08               146 .node_repl_history
+15-03-2020  16:49    <DIR>          .vscode
+15-03-2020  14:23    <DIR>          3D Objects
+15-03-2020  14:23    <DIR>          Contacts
+17-03-2020  11:46    <DIR>          Desktop
+16-03-2020  15:23    <DIR>          Documents
+17-03-2020  14:09    <DIR>          Downloads
+15-03-2020  14:23    <DIR>          Favorites
+17-03-2020  12:24    <DIR>          hoi
+16-03-2020  15:40             1.093 index.html
+15-03-2020  14:23    <DIR>          Links
+15-03-2020  14:23    <DIR>          Music
+15-03-2020  12:59    <DIR>          OneDrive
+15-03-2020  17:03    <DIR>          Pictures
+15-03-2020  14:23    <DIR>          Saved Games
+15-03-2020  14:23    <DIR>          Searches
+16-03-2020  09:16    <DIR>          Videos
+               2 File(s)          1.239 bytes
+              19 Dir(s)  199.078.948.864 bytes free
+
+C:\Users\Gebruiker>cd Documents
+
+C:\Users\Gebruiker\Documents>cd "Winc Academy"
+
+C:\Users\Gebruiker\Documents\Winc Academy>cd week1
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>echo %cd%
+C:\Users\Gebruiker\Documents\Winc Academy\week1
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>mkdir "winc-commandline-opdracht"
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3E33-A873
+
+ Directory of C:\Users\Gebruiker\Documents\Winc Academy\week1
+
+17-03-2020  16:46    <DIR>          .
+17-03-2020  16:46    <DIR>          ..
+16-03-2020  17:43    <DIR>          dag1
+17-03-2020  16:32    <DIR>          dag2
+17-03-2020  16:46    <DIR>          winc-commandline-opdracht
+               0 File(s)              0 bytes
+               5 Dir(s)  199.078.158.336 bytes free
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>cd winc-commandline-opdracht
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1\winc-commandline-opdracht>type nul > script.js
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1\winc-commandline-opdracht>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3E33-A873
+
+ Directory of C:\Users\Gebruiker\Documents\Winc Academy\week1\winc-commandline-opdracht
+
+17-03-2020  16:47    <DIR>          .
+17-03-2020  16:47    <DIR>          ..
+17-03-2020  16:47                 0 script.js
+               1 File(s)              0 bytes
+               2 Dir(s)  199.077.982.208 bytes free
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1\winc-commandline-opdracht>cd ..
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>rmdir /S winc-commandline-opdracht
+winc-commandline-opdracht, Are you sure (Y/N)? y
+
+C:\Users\Gebruiker\Documents\Winc Academy\week1>
