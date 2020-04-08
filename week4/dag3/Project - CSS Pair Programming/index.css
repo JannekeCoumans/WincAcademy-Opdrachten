@@ -1,0 +1,147 @@
+body{
+    background: #c3cfe2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 5%;
+    row-gap: 30px;
+    
+}
+
+.testimonial{
+    background: white;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #888888;
+    margin: auto;
+    display: block;
+}
+
+p{
+    padding: 30px 30px 0px 30px;
+}
+
+img{
+    width: 80px;
+    border: white 5px solid;
+    margin: 0px 110px; 
+    border-radius: 50px;
+}
+
+.footer{
+    background: #686de0;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    padding: 40px;
+}
+
+.social-media-container{
+    position: absolute;
+    top: 200px;
+    right: -170px;
+    list-style-type: none;
+}
+
+.social-media-container:hover{
+    right: 0px;
+}
+
+i {
+    color: #FFF;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.fa-laptop-code::before {
+    content: "\f5fc";
+}
+.fa-twitter::before {
+    content: "\f099";
+}
+.fa-linkedin-in::before {
+    content: "\f0e1";
+}
+.fa-facebook-f::before {
+    content: "\f39e";
+}
+.fa-github::before {
+    content: "\f09b";
+}
+
+.social-media.blog {
+    background-color: #e17b77;
+
+}
+
+.social-media.facebook {
+    background-color: #3b5998;
+
+}
+
+.social-media.twitter {
+    background-color: #00aced;
+
+}
+
+.social-media.github {
+    background-color: #333;
+
+}
+
+.social-media.linkedin {
+    background-color: #007bb6;
+
+}
+
+
+
+/* .social-media.facebook:hover{
+    width: 200px;
+    transform: 1s ease-in;
+}
+
+.social-media.linkedin:hover{
+    width: 200px;
+    transform: 1s ease-in;
+}
+
+.social-media.github:hover{
+    width: 200px;
+    transform: 1s ease-in;
+}
+
+.social-media.blog:hover{
+    width: 200px;
+    transform: 1s ease-in;
+}
+
+.social-media.twitter:hover{
+    width: 200px;
+    transform: 1s ease-in;
+} */
+
+@media(min-width: 768px){
+    .portfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1024px){
+    .portfolio{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
