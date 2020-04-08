@@ -1,0 +1,18 @@
+.een:hover {
+  font-weight: bold;
+  color: lightblue;
+}
+
+.twee:active {
+  color: red;
+  font-style: italic;
+}
+
+.drie:visited {
+  color: yellow;
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+}
