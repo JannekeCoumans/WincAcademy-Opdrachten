@@ -1,0 +1,36 @@
+/* Excercise 1 */
+.anim:active .ball-one {
+    left: 150px;
+    transition: left .5s ease-in;
+  }
+
+.anim:active .ball-two {
+    left: 4000px;
+    transition: left 1s ease-in .45s;
+}
+  
+.ball-one {
+    background: #ff97C0;
+    border-radius: 50%;
+    position: absolute; top: 70px; left: 00px;
+    width: 200px; height: 200px;
+  }
+  
+.ball-two {
+    background: #0097C0;
+    border-radius: 50%;
+    position: absolute; top: 170px; left: 300px;
+    width: 100px; height: 100px;
+}
+
+/* Excercise 2 */
+.excercise-2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+	transition: 2s ease-in-out;
+}
+
+.excercise-2:hover {
+    width: 300px;
+}
