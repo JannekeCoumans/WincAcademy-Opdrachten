@@ -1,18 +1,38 @@
-.een:hover {
-  font-weight: bold;
-  color: lightblue;
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.twee:active {
-  color: red;
-  font-style: italic;
+nav {
+  height: 40px;
+  background-color: darkblue;
+  display: flex;
 }
 
-.drie:visited {
-  color: yellow;
+ul{
+  display: block;
+  margin:auto auto auto -60px;
+  list-style-type: none;
 }
 
-input:focus {
-  color: green;
-  font-size: 20px;
+li {
+  display: inline-block;
+  padding: 0 20px;
 }
+
+li:hover {
+  background-color: lightblue;
+}
+
+.currentPage {
+  background-color: grey;
+}
+
+li input:focus {
+  border: 2px solid aqua;
+}
+
+div a:nth-child(1):hover{font-weight: bold;color: lightblue;}
+div a:nth-child(2):active {color: red;font-style: italic;}
+div a:nth-child(3):visited{color: yellow;}
+div input:focus {color: green;font-size: 20px;}
