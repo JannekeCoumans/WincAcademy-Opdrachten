@@ -1,6 +1,11 @@
 /* Excercise 1 */
+body {
+    overflow-x: hidden;
+}
+
+
 .anim:active .ball-one {
-    left: 150px;
+    left: 50%;
     transition: left .5s ease-in;
   }
 
@@ -14,13 +19,20 @@
     border-radius: 50%;
     position: absolute; top: 70px; left: 00px;
     width: 200px; height: 200px;
-  }
+    display: flex;
+}
+
+.ball-one h1, .ball-two h1 {
+    font-size: 80px;
+    margin: auto;
+}
   
 .ball-two {
     background: #0097C0;
     border-radius: 50%;
-    position: absolute; top: 170px; left: 300px;
-    width: 100px; height: 100px;
+    position: absolute; top: 70px; left: 52%;
+    width: 200px; height: 200px;
+    display: flex;
 }
 
 /* Excercise 2 */
